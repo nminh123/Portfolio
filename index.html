@@ -1,68 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="style.css">
-    <title>Minh's Portfolio</title>
-</head>
-<body>
-    <aside>
-        <div class="image-cont">
-            <img class="anh" src="image/Ảnh thẻ được xóa nền.png" alt="Ảnh của Cao Nhật Minh">
-        </div>
-        <h3>Cao Nhật Minh</h3>
-        <h4 class="major">Game Developer</h4>
-        <hr>
-        <div class="Email">
-            <img src="image/3178158.png" alt="Email Address"> 
-            <p><b>Email</b></p>
-            <p>caonhatminh245@gmail.com</p>
-        </div>
-        <div class="Phone">
-            <img src="image/phonexoanen.png" alt="Phone Number">
-            <p><b>Phone</b></p>
-            <p>+84 846240524</p>
-        </div>
-        <div class="Git">
-            <img src="image/githubxoanen.png" alt="Github logo">
-            <p><b>GitHub</b></p>
-            <p class="linkgit">
-                <a href="https://github.com/nminh123">https://github.com/nminh123</a>
-            </p>
-        </div>
-        <div class="Location">
-            <img src="image/535239.png" alt="Location">
-            <p><b>Location</b></p>
-            <p>HCMC,VietNam</p>
-        </div>
-    </aside>
 
-    <article>
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Alex's portfolio website exersice built while learning at Microverse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="nav_container">
+        <a href="#" class="logo">
+          <img src="images/MyLogo.png" alt="Logo" />
+        </a>
+        <nav class="toggle">
+          <img src="images/Union.png" alt="hamburger menu" class="hamburger_menu_icon" />
+          <ul class="mobile_side_nav">
+            <li class="menu_link closebtn"><a href="javascript:void(0)">&times;</a></li>
+            <li class="menu_link"><a href="#Portfolio" class="menulink">Portfolio</a></li>
+            <li class="menu_link"><a href="#About">About</a></li>
+            <li class="menu_link"><a href="#Contact">Contact</a></li>
+          </ul>
         </nav>
-        <header class="header">
-            <h2>About Me</h2>
-            <hr>
-            <br>
-            <p>Xin chào! Tôi là Cao Nhật Minh, 
-                một Game Developer với niềm đam mê phát triển và thiết kế trò chơi.
-                Với nhiều năm kinh nghiệm trong ngành, 
-                tôi đã tham gia phát triển nhiều dự án từ game di động đến game đa nền tảng.
-                Sự sáng tạo, kỹ năng lập trình và khả năng giải quyết vấn đề là những yếu tố tôi luôn mang vào mỗi dự án mình tham gia.
-                Mục tiêu của tôi là tạo ra những trải nghiệm game độc đáo, 
-                thu hút và mang đến giá trị cho người chơi.</p>
-        </header>
-        <div class="Stuff">
-            <h2>What I'm Doing</h2>
+        <nav class="desktop_nav">
+          <ul class="desktop_nav_container">
+            <li class="desk_nav_li">
+              <a href="#Portfolio" class="desk_nav_info">Portfolio</a>
+            </li>
+            <li class="desk_nav_li">
+              <a href="#About" class="desk_nav_info">About</a>
+            </li>
+            <li class="desk_nav_li">
+              <a href="#Contact" class="desk_nav_info">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="parent_main">
+      <section class="main_container">
+        <h1 class="box1">Tôi là Cao Nhật Minh. Rất vui vì bạn đã đọc CV này</h1>
+        <p class="box2">Tôi là một Game Developer, với kinh nghiệm 1 năm học tập và thực hành lập trình bằng mã Java sử dụng libGDX framework hiện tại đang tìm kiếm nơi thực tập tại doanh nghiệp về trò chơi ở thành phố Hồ Chí Minh.</p>
+        <h2 class="box3">LIÊN LẠC VỚI TÔI QUA</h2>
+        <ul class="box4">
+          <li class="socials">
+            <a href="https://twitter.com/harlexkhal">
+              <img src="images/twitter.png" alt="twitter" />
+            </a>
+          </li>
+          <li class="socials">
+            <a href="https://www.linkedin.com/in/alexander-oguzie-ibeh-776814164">
+              <img src="images/Linkedin.png" alt="Linkedin" />
+            </a>
+          </li>
+          <li class="socials">
+            <a href="https://github.com/harlexkhal">
+              <img src="images/github.png" alt="github" />
+            </a>
+          </li>
+          <li class="socials">
+            <a href="#">
+              <img src="images/" alt="peace" />
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="Portfolio">
+        <ul class="project_contents"></ul>
+      </section>
+
+      <section class="about_container" id="About">
+        <div class="about_myself">
+          <h1 class="box1">About Myself</h1>
+          <p class="box2">Hello I'm a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
+          <h2 class="box3">LET'S CONNECT</h2>
+          <ul class="box4">
+            <li class="socials">
+              <a href="https://twitter/harlexkhal">
+                <img src="images/twitter.png" alt="twitter" />
+              </a>
+            </li>
+            <li class="socials">
+              <a href="https://www.linkedin.com/in/alexander-oguzie-ibeh-776814164">
+                <img src="images/Linkedin.png" alt="Linkedin" />
+              </a>
+            </li>
+            <li class="socials">
+              <a href="#">
+                <img src="images/m.png" alt="M" />
+              </a>
+            </li>
+            <li class="socials">
+              <a href="https://github.com/harlexkhal">
+                <img src="images/github.png" alt="github" />
+              </a>
+            </li>
+            <li class="socials">
+              <a href="#">
+                <img src="images/peace.png" alt="peace" />
+              </a>
+            </li>
+          </ul>
+          <button type="button" class="resume_btn">Get my resume</button>
         </div>
-    </article>
-</body>
+
+        <div class="about_myskills">
+          <ul class="skills">
+            <li>
+              <section class="skills_dropdown">
+                <h3 class="skills_dropdown_title">Languages</h3>
+                <img src="images/Vector.png" alt="arrow-icon" />
+              </section>
+              <ul class="skills_dropdown_desc">
+                <li class="skills_desc_li">
+                  <img class="java_logo" src="images/jvlogo.png" alt="Java logo" />
+                  <p class="skills_desc_li_title1">Java</p>
+                </li>
+                <li class="skills_desc_li">
+                  <img class="c-sharp_logo" src="images/csharp_plain_logo_icon_146577.png" alt="C-Sharp logo" />
+                  <p class="skills_desc_li_title">C-Sharp</p>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <section class="skills_dropdown">
+                <h3 class="skills_dropdown_title dropdown_child_class">Technology</h3>
+                <img src="images/Vector.png" alt="arrow-icon" />
+              </section>
+              <ul class="skills_dropdown_desc">
+                <li class="skills_desc_li">
+                  <img class="unity_logo" src="images/Unity-Logo.png" alt="Unity logo" />
+                  <p class="skills_tech_li_title">Unity</p>
+                </li>
+                <li class="skills_desc_li">
+                  <img class="libgdx_logo" src="images/libgdx logo.png" alt="Libgdx logo" />
+                  <p class="skills_tech_li_title1">LibGDX</p>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <section class="skills_dropdown">
+                <h3 class="skills_dropdown_title dropdown_child_class">Skills</h3>
+                <img src="images/Vector.png" alt="arrow-icon" />
+              </section>
+              <ul class="skills_dropdown_desc">
+                <li class="skills_desc_li">
+                  <img class="OOP_logo" src="images/1*SC9EZRqtAx6W_LeNf3j4Ew.jpg" alt="Problem Solving" />
+                  <p class="skills_desc_li_title">Object Oriented Programming</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
